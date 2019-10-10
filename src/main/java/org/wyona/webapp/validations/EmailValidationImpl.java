@@ -9,9 +9,10 @@ public class EmailValidationImpl implements EmailValidation {
 
     @Override
     public Boolean isEmailValid(String email) {
-        String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$";
-        return email.matches(regex);
+        
+        return email.matches("^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$"); //Sensitive
     }
+	
 
     @Override
     public String isSubjectEmpty(String subject) {
