@@ -1,4 +1,4 @@
-README UPDATE Nuevo 10/10/2019   
+README UPDATE Nuevo 10/10/2019    
 ======
 
 Minimal Spring Boot based RESTful 'Hello World' example, including Swagger (using Springfox) and Docker
